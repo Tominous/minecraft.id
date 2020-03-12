@@ -261,7 +261,7 @@
 
 
         console.info("authController");
-//        console.log($location.path())
+        console.log($location.path())
 
         $scope.refreshStatus = function () {
             $http({
@@ -351,9 +351,9 @@
         $scope.head.seoTitle = "Demo - MinecraftID";
 
         console.info("demoController");
-//        console.log($location.path())
-//        console.log($routeParams);
-//        console.log($routeParams.returnValues)
+        console.log($location.path())
+        console.log($routeParams);
+        console.log($routeParams.returnValues)
         $scope.iframeSrc = "https://minecraft.id/_demo/index.php";
         if ($routeParams.returnValues) {
             var split = $routeParams.returnValues.split(",");
